@@ -1,11 +1,11 @@
 import React from "react";
 import user from "../data/user";
 
-function Links () {
+function Links (props) {
     return (
         <h3>Links
-            <a href= {user.links.github}>{user.links.github}</a>
-            <a href= {user.links.linkedin}>{user.links.linkedin}</a>
+            <a href= {props.github}>{props.github}</a>
+            <a href= {props.linkedin}>{props.linkedin}</a>
         </h3>
 
     )
